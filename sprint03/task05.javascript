@@ -36,33 +36,3 @@ function mapCreator(keys, values) {
     });
     return map;
   }
-  
-  //перевірка
-// console.log(mapCreator([1, 2, 3, 4, 5, 6, 7], ["Lviv", 23, "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", true]))
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// console.log(map.get(1));
-
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// console.log(map.size);
-
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// console.log(map.has(2));
-
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// console.log(map.has(10));
-
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// console.log(map.get(7));
-
-// const map = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", "Rivne", "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", "Ivano-Frankivsk"]);
-// map.clear();
-// console.log(map.size);
-
-// const map2 = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", 23, "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", true]);
-// console.log(map2.size);
-
-// const map2 = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", 23, "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", true]);
-// console.log(map2.get(2));
-
-// const map2 = mapCreator([1, 2, 3, 4, 5, 6, 7],["Lviv", 23, "Kyiv", "Dnipro", "Kharkiv", "Chernivtsi", true]);
-// console.log(map2.get(7));
