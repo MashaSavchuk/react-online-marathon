@@ -1,0 +1,20 @@
+// 2.	The tasks of the topic "TypeScript"
+// There is a simple project.
+// Configure this project, so that:
+// 1.	Install TypeScript and register it in the package.json
+// 2.	Write an configuration file to provide:
+// o	include to compilation files file1.ts and file2.ts from root of project
+// o	include all typescript files from any directory nested to any level of src, excluding files *.test.ts
+// o	concatenate and emit output to the file dist/main.js
+// o	all of the above configurations work by invoking tsc with no input files
+
+{
+  "compilerOptions": {  
+    "target": "es5",                                     
+    "outFile": "dist/main.js"                                
+  },
+  "include": ["file1.ts",
+    "file2.ts",
+    "src/**/*.ts"],
+  "exclude": ["src/*.test.ts"]  
+}
